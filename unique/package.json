@@ -1,0 +1,14 @@
+{
+  "name": "unique",
+  "version": "1.0.0",
+  "description": "",
+  "main": "memory_burster.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rapeapach Suwasri <LenKunZ <kagaminelenkyun@gmail.com> (http://lenkyun.tk)",
+  "license": "ISC",
+  "dependencies": {
+    "scanf": "^0.7.3"
+  }
+}

@@ -1,0 +1,19 @@
+let [agency] be [candidate] provider as "Employment Agency"
+let [employee] be none as "current office assistant"
+
+while [agency] provide [candidate] then
+    if doesn't has employee then
+        use [candidate] as [employee]
+
+    else then
+
+        compare [candidate quality] with [employee quality]
+        if greater then 
+            use [candidate] as [employee]
+        else then
+            do nothing
+        done if
+    done if
+done while
+
+end process
